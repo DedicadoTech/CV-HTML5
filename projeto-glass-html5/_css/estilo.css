@@ -1,7 +1,11 @@
 @charset "utf-8";
 body{
-    background-color:hsla(165,81%,93%,0.5);
+    background-color: #dddddd;
     color:rgba(120,155,180,0.8);
+}
+div#interface{
+    width: 800px;
+    background: white;
 }
 p{
 
