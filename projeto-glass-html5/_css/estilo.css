@@ -41,4 +41,6 @@ nav#menu ul{
 nav#menu li{
     display: inline-block;
     background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
 }
