@@ -34,9 +34,13 @@ figure.foto-legenda:hover figcaption{
     opacity: 1;
 }
 /* Formatação do Menu*/
+nav#menu{
+    display: block;
+}
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
+    position: absolute;
 }
 nav#menu li{
     display: inline-block;
