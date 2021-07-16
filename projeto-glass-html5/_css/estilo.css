@@ -28,3 +28,6 @@ figure.foto-legenda figcaption{
     padding: 10px;
     box-sizing: border-box;
 }
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
