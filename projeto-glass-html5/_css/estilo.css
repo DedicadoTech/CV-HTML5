@@ -4,16 +4,24 @@ body{
     color:rgba(120,155,180,0.8);
 }
 div#interface{
-    width: 800px;
+    width: 900px;
     background: white;
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
 }
 p{
 
     text-align: justify;
     text-indent: 50px;
+}
+header#cabeçalho img#icone{
+    position: absolute;
+    left: 780px;
+    top: 40px;
+}
+header#cabeçalho{
+
 }
 /*Formatação de imagens com legendas*/
 figure.foto-legenda{
