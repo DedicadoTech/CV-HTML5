@@ -6,7 +6,9 @@ body{
 div#interface{
     width: 800px;
     background: white;
-    margin: -20px auto 10px auto;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px 10px 10px 10px;
 }
 p{
 
