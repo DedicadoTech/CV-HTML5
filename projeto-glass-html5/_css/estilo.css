@@ -6,6 +6,7 @@ body{
 div#interface{
     width: 800px;
     background: white;
+    margin: -20px auto 10px auto;
 }
 p{
 
