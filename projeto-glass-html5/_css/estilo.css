@@ -133,4 +133,6 @@ table#tabelaspec{
 table#tabelaspec td{
     border: 1px solid #606060;
     padding: 10px ;
+    text-align: right;
+    vertical-align: middle;
 }
