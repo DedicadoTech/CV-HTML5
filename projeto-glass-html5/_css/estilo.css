@@ -94,6 +94,7 @@ nav#menu li:hover{
 }
 nav#menu h1{
     display: none;
+
 }
 nav#menu a {
     color: #000000;
@@ -106,7 +107,7 @@ nav#menu a:hover{
 }
 section#corpo{
     display: block;
-    width: 500px;
+    width: 470px;
     float: left;
     border-right: 1px solid #606060;
     padding: 20px;
@@ -124,15 +125,41 @@ footer#rodape {
 footer#rodape p{
     text-align: center;
 }
+/*tables*/
 table#tabelaspec{
     border: 1px solid #606060;
     border-spacing: 0px;
     margin-left: auto;
     margin-right: auto;
+    font-family: Arial,sans-serif;
 }
 table#tabelaspec td{
     border: 1px solid #606060;
     padding: 10px ;
     text-align: right;
-    vertical-align: middle;
+    vertical-align: top;
+
+}
+table#tabelaspec td.ce{
+    text-align: right;
+    color: #ffffff;
+    background-color:  #606060;
+    font-weight: bold;
+}
+table#tabelaspec td.cd{
+    text-align: left;
+    color: black;
+    background-color: #cecece;
+}
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bold;
+    margin-bottom: 0ṕx;
+}
+table#tabelaspec caption span{
+    display:block;
+    font-size: 8pt;
+    text-align: right;
+    margin-bottom: 0pxpx;
 }
