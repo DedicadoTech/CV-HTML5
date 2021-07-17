@@ -124,3 +124,9 @@ footer#rodape {
 footer#rodape p{
     text-align: center;
 }
+table#tabelaspec{
+    border: 1px solid #606060;
+}
+table#tabelaspec td{
+    border: 1px dashed #606060;
+}
