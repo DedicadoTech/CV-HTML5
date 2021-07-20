@@ -4,21 +4,33 @@
     <meta charset="UTF-8">
     <title>Acenda a lâmpada</title>
   <script>
-    function acendeLampada() {
-      document.getElementById("Luz").src = "_imagens/lampada-acesa.jpg";
+    var quebrada = false;
+    function mudaLampada(tipo) {
+      if (tipo == 1) {
+        arquivo = "_imagens/lampada-acesa.jpg";
+      }
+      if (tipo == 2) {
+        arquivo = "_imagens/lampada-apagada.jpg";
+      }
+      if (tipo == 3) {
+        arquivo = "_imagens/lampada-quebrada.jpg";
+      }
+      if (!quebrada) {
+        document.getElementById("luz").src = arquivo;
+        if (tipo == 3) {
+          quebrada = true;
+        }
+      }
     }
-    function apagaLampada(){
-      document.getElementById("Luz").src = "_imagens/lampada-apagada.jpg";
-    }
-    function quebraLampada(){
-      document.getElementById("Luz").src = "_imagens/lampada-quebrada.jpg";
-    }
+
+
+
   </script>
 </head>
 <body>
 
 <h1>Acenda a Lâmpada</h1>
-<img src="_imagens/lampada-apagada.jpg" id="Luz" onmousemove="acendeLampada()" onmouseleave="apagaLampada()" onclick="quebraLampada()"/>
+<img src="_imagens/lampada-apagada.jpg" id="luz" onmousemove="mudaLampada(1)" onmouseleave="mudaLampada(2)" onclick="mudaLampada(3)"/>
 
 </body>
 </html>
