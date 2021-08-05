@@ -14,7 +14,8 @@ input:hover, textarea:hover{
     background-color: #dddddd;
 }
 legend {
-    color: #888888;
+    text-decoration: lin;
+    color: #009400;
     font-weight: bold;
     font-size: 13pt;
     font-family: sans-serif;
