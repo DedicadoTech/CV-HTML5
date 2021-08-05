@@ -40,20 +40,21 @@
         <form>
             <fieldset>
                 <legend>Identificação do Usuário</legend>
-                <p>Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="20" placeholder="Nome Completo"/></p>
-                <p>Senha: <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"> </p>
-                <p>E-mail: <input type="email" name="tMail" id="cMail"> </p>
+                <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="20" placeholder="Nome Completo"/></p>
+                <p><label for="cSenha">Senha:</label> <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"> </p>
+                <p><label for="cMail">E-mail:</label> <input type="email" name="tMail" id="cMail" size="30" maxlength="40"> </p>
                 <fieldset id="sexo"><legend>Sexo:</legend>
-                    - Masculino
-                    - Feminino</fieldset>
-                Data de Nascimento:
+                    <input type="radio" name="tsexo" id="cMasc" checked/>- <label for="cMasc">Masculino</label><br>
+                    <input type="radio" name="tsexo" id="cFem">- <label for="cFem">Feminino</label>
+                </fieldset>
+                <p><label for="cNasc">Data de Nascimento:</label> <input type="date" name="tNasc" id="cNasc" size="10" maxlength="10"></p>
             </fieldset>
 
             <fieldset id="endereco"><legend>Endereço do Usuário</legend>
-                <p>Logradouro:</p>
-                <p>Número:</p>
-                <p>Estado:</p>
-                <p>Cidade:</p>
+                <p><label for="cRua">Logradouro: <input type="text" name="tRua" id="cRua" size="40" maxlength="80" placeholder="Rua, Av, Travessa,..."> </label></p>
+                <p><label for="cNum">Número: <input type="text" name="tNum" id="cNum" size="5" maxlength="6" placeholder="S/N"/></label></p>
+                <p><label for="cEstado"> Estado:</label><input type="text" name="tEstado" id="cEstado" size="13" maxlength="25"></p>
+                <p><label for="cCidade">Cidade:</label> <input type="text" name="tCidade" id="cCidade" size="25" maxlength="25"></p>
             </fieldset>
 
             <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
