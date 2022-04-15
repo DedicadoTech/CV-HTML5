@@ -3,4 +3,4 @@ Repositório para aula de HTML5 do site Curso em vídeo
 
 
 link do projeto finalizado:
-https://pisomd.github.io/CV-HTML5/
+https://artesaoti.github.io/CV-HTML5/
